@@ -79,28 +79,30 @@ section:after {
 
 #flexContainer {
     margin: 30px;
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 400px 400px 400px;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    grid-template-areas: 
-        "userExp userInterface webDev";  
+
+   
 }
 
 #userExp{
-    grid-area: userExp;
+    width: 33%;
+    height: 400px;
     background-image: url(../images/userExp.jpeg);
 } 
 
 #userInterface{
-    grid-area: userInterface;
+    width: 33%;
+    height: 400px;
     background-image: url(../images/userInt.jpeg);
 }
 
 #webDev{
-    grid-area: webDev;
+    width: 33%;
+    height: 400px;
     background-image: url(../images/webdevelopmetCropped.jpeg);
+    
 }
 
 .headingSkills {
@@ -237,6 +239,7 @@ text p {
     color: white;
 }
 
+
 @media only screen and (max-width: 600px) {
     .headShot {
         height: 500px;
@@ -263,15 +266,30 @@ text p {
     .content {
        height: 900px;
     }
+
+
     #flexContainer {
-        grid-template-rows: 400px 400px 400px;
-        grid-template-columns: 400px;
-        grid-gap: 10px;
-        align-content: center;
-        grid-template-areas: 
-            "userExp"
-            "userInterface"
-            "webDev";  
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+   }
+
+    #userExp{
+        width: 400px;
+        height: 400px;
+        background-image: url(../images/userExp.jpeg);
+    } 
+    
+    #userInterface{
+        width: 400px;
+        height: 400px;
+        background-image: url(../images/userInt.jpeg);
+    }
+    
+    #webDev{
+        width: 400px;
+        height: 400px;
+        background-image: url(../images/webdevelopmetCropped.jpeg);
     }
 
     #myWork {
@@ -283,6 +301,8 @@ text p {
              "bba"
             "allProjects";
     }
+
+
 
 
 }
