@@ -80,7 +80,7 @@ section:after {
 #flexContainer {
     margin: 30px;
     display: grid;
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
     grid-template-columns: 400px 400px 400px;
     grid-gap: 10px;
     justify-content: center;
@@ -106,7 +106,7 @@ section:after {
 .headingSkills {
     background-color: rgb(0,0,0,0.7);
     padding: 20px 40px;
-    height: 25px;
+    height: 140px;
     color: white;
     font-size: 18px;
     border-bottom: 5px solid purple;
@@ -133,7 +133,7 @@ section:after {
 
 .descrip {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
@@ -264,7 +264,7 @@ text p {
        height: 900px;
     }
     #flexContainer {
-        grid-template-rows: 300px 300px 300px;
+        grid-template-rows: 400px 400px 400px;
         grid-template-columns: 400px;
         grid-gap: 10px;
         align-content: center;
