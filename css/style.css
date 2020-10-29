@@ -241,9 +241,9 @@ text p {
     .headShot {
         height: 500px;
         width: 500px;
-        padding-left: 30px;
+        padding-left: 15px;
         padding-top: 50px;
-        padding-right: 30px;
+        padding-right: 10px;
         padding-bottom: 30px;
     }
     
