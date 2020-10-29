@@ -260,9 +260,8 @@ text p {
 
     }
 
-
     .content {
-       height: 1200px;
+       height: 1100px;
     }
     #flexContainer {
         grid-template-rows: 300px 300px 300px;
