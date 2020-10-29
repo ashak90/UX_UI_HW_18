@@ -239,9 +239,9 @@ text p {
 
 @media only screen and (max-width: 600px) {
     .headShot {
-        height: 400px;
-        width: 400px;
-        padding-left: 15px;
+        height: 500px;
+        width: 500px;
+        padding-left: 30px;
         padding-top: 50px;
         padding-right: 10px;
         padding-bottom: 30px;
@@ -261,7 +261,7 @@ text p {
     }
 
     .content {
-       height: 1100px;
+       height: 900px;
     }
     #flexContainer {
         grid-template-rows: 300px 300px 300px;
