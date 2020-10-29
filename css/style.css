@@ -111,7 +111,7 @@ section:after {
     height: 140px;
     color: white;
     font-size: 18px;
-    border-bottom: 5px solid purple;
+    border-bottom: 5px solid #478BA7;
 }
 
 .uxSkills{
@@ -127,11 +127,6 @@ section:after {
     
 }
 
-\.uxSkills {
-    width: 33%;
-    margin: 50px;
-
-}
 
 .descrip {
     font-size: 15px;
@@ -140,6 +135,9 @@ section:after {
 
 h2 {
     text-align: center;
+    color: #478BA7;
+    font-size: 45px;
+
 }
 
 #myWork {
@@ -192,10 +190,11 @@ h2 {
 .heading {
     background-color: rgb(0,0,0,0.7);
     padding: 15px;
-    height: 25px;
+    height: 50px;
     color: white;
     font-size: 18px;
-    border-bottom: 5px solid purple;
+    font-weight: 600;
+    border-bottom: 5px solid #478BA7;
     
 
 }
@@ -211,33 +210,11 @@ h2 {
     height: 25px;
     color: white;
     font-size: 25px;
-    border-bottom: 5px solid purple;
+    border-bottom: 5px solid #478BA7;
     text-align: center;
     justify-items: center;
 }
 
-
-text {
-    background: rgb(0,0,0,0.7);
-    width: 300px;
-    padding: 20px 40px;
-    color: white;
-}
-text p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.text h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#textBBA {
-    background: rgb(0,0,0,0.7);
-    width: 435px;
-    padding: 20px 40px;
-    color: white;
-}
 
 
 @media only screen and (max-width: 600px) {
