@@ -21,14 +21,20 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
+    margin: 5px;
     text-decoration: none;
     border-color: black;
+    border-style: solid;
     border-radius: 10px;
     transition: all 0.05s;
+}
+
+.navList li {
+    display: inline-block;
 }
 
 li a:hover {
@@ -75,6 +81,7 @@ section:after {
     margin: 0;
     padding: 60px;
     overflow: hidden;
+    
 }
 
 #flexContainer {
